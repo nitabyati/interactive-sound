@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 808.0, 187.0, 550.0, 560.0 ],
+		"rect" : [ 40.0, 298.0, 1007.0, 560.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,7 +52,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 133.0, 837.5, 191.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 693.0, 709.0, 105.0, 23.0 ],
+					"presentation_rect" : [ 1151.0, 824.0, 105.0, 23.0 ],
 					"text" : "Volume",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
@@ -73,7 +73,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.0, 822.5, 187.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 572.0, 709.0, 109.0, 23.0 ],
+					"presentation_rect" : [ 1030.0, 824.0, 109.0, 23.0 ],
 					"text" : "Turn ON",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
@@ -965,32 +965,6 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "## VIZZIE video projector interface ##",
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-78",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "vz.projectr.maxpat",
-					"numinlets" : 4,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1860.0, 764.0, 168.0, 108.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 350.0, 603.0, 184.0, 108.0 ],
-					"prototypename" : "pixl",
-					"varname" : "projectr",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"annotation" : "## Average VIZZIE input data ##",
 					"bgmode" : 1,
 					"border" : 0,
@@ -1540,7 +1514,7 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 440,
-					"clipheight" : 134.0,
+					"clipheight" : 66.5,
 					"data" : 					{
 						"clips" : [ 							{
 								"absolutepath" : "RUWA - HELLO MY NAME IS.mp3",
@@ -1553,6 +1527,18 @@
 									"loop" : 1,
 									"speed" : 1.0,
 									"pitchshift" : 0.36
+								}
+
+							}
+, 							{
+								"absolutepath" : "Bladee - Unreal INSTRUMENTAL.mp3",
+								"filename" : "Bladee - Unreal INSTRUMENTAL.mp3",
+								"filekind" : "audiofile",
+								"id" : "u369007312",
+								"selection" : [ 0.045685279187817, 1.0 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
 								}
 
 							}
@@ -1572,9 +1558,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 728.0, 268.0, 249.0, 135.0 ],
 					"pitchcorrection" : 0,
-					"pitchshiftcent" : [ -1769 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.0, 576.0, 252.0, 135.0 ],
+					"presentation_rect" : [ 549.0, 827.0, 252.0, 135.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -1670,6 +1655,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 1868.0, 180.0, 358.0, 158.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 529.0, 595.0, 411.0, 195.0 ],
 					"prototypename" : "pixl",
 					"varname" : "playr",
 					"viewvisibility" : 1
@@ -1707,7 +1694,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1268.0, 324.0, 92.0, 22.0 ],
-					"text" : "0.150592"
+					"text" : "0."
 				}
 
 			}
@@ -1728,6 +1715,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1788.0, 472.0, 240.0, 208.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 46.0, 589.0, 452.0, 373.0 ],
 					"prototypename" : "pixl",
 					"varname" : "viewr",
 					"viewvisibility" : 1
@@ -1796,7 +1785,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 647.0, 757.0, 148.0, 116.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 594.0, 573.5, 192.0, 140.0 ],
+					"presentation_rect" : [ 1052.0, 689.0, 192.0, 140.0 ],
 					"varname" : "bp.Stereo",
 					"viewvisibility" : 1
 				}
@@ -2056,15 +2045,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"order" : 1,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-78", 0 ],
-					"order" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -2721,14 +2701,6 @@
 			"obj-72::obj-16" : [ "pictctrl[60]", "pictctrl[1]", 0 ],
 			"obj-72::obj-51" : [ "pictctrl[82]", "pictctrl[1]", 0 ],
 			"obj-72::obj-9" : [ "Fader[3]", "Fader", 0 ],
-			"obj-78::obj-12" : [ "Fullscreen", "Fullscreen", 0 ],
-			"obj-78::obj-16" : [ "Toggle display", "Toggle display", 0 ],
-			"obj-78::obj-1::obj-23" : [ "gswitch2[9]", "gswitch2", 0 ],
-			"obj-78::obj-2" : [ "pictctrl[101]", "pictctrl[1]", 0 ],
-			"obj-78::obj-3" : [ "toggle", "toggle", 0 ],
-			"obj-78::obj-41" : [ "pictctrl[102]", "pictctrl[1]", 0 ],
-			"obj-78::obj-50" : [ "pictctrl[88]", "pictctrl[1]", 0 ],
-			"obj-78::obj-6" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -2941,18 +2913,6 @@
 				"obj-72::obj-9" : 				{
 					"parameter_longname" : "Fader[3]"
 				}
-,
-				"obj-78::obj-2" : 				{
-					"parameter_longname" : "pictctrl[101]"
-				}
-,
-				"obj-78::obj-41" : 				{
-					"parameter_longname" : "pictctrl[102]"
-				}
-,
-				"obj-78::obj-50" : 				{
-					"parameter_longname" : "pictctrl[88]"
-				}
 
 			}
 ,
@@ -3100,12 +3060,6 @@
 			}
 , 			{
 				"name" : "vz.playr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vz.projectr.maxpat",
 				"bootpath" : "C74:/packages/Vizzie/patchers",
 				"type" : "JSON",
 				"implicit" : 1
